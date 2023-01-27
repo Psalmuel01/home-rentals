@@ -4,13 +4,14 @@ function Hero() {
   return (
     <div className="hero">
       <Header />
-      <div>
-        <h1>The most affortable place to stay in the san franciso bay area</h1>
-        <div>
-            <iframe src="" frameborder="0"></iframe>
-            <div>
-                
-            </div>
+      <div className="hero-area">
+        <h1 className="hero-text">
+          The Most Affortable Place To Stay In The San Franciso Bay Area
+        </h1>
+        <div className="map">
+          {/* <iframe src="" title="jsx-ally/iframe-has-title" frameborder="0"></iframe> */}
+          <div className="iframe"></div>
+          <div className="search"></div>
         </div>
       </div>
     </div>
