@@ -10,7 +10,12 @@ import vector6 from "../images/vector6.svg";
 function Features() {
   return (
     <div className="features">
-      <h2>Minimum Living Cost Takes care Of Everything</h2>
+    <div>
+      <h2>
+        Minimum Living Cost Takes Care Of Everything
+        <div className="text-line"></div>
+      </h2>
+    </div>
       <div className="features-area">
         <img src={apartment} alt="" />
         <div className="list-details">

@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .hero {
@@ -37,7 +37,7 @@ body {
 .line {
   width: 100%;
   height: 1px;
-  background-color: white;
+  background: white;
 }
 
 .hero-area {
@@ -57,10 +57,13 @@ body {
   height: 340px;
   box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  background: gray;
 }
 
-.search {
+iframe {
+  border-radius: 15px;
+}
+
+.map-search {
   width: 408px;
   height: 88px;
   background: #ffffff;
@@ -76,6 +79,19 @@ body {
 
 .features {
   padding: 3% 7%;
+}
+
+.features h2 {
+  font-weight: 700;
+  width: fit-content;
+}
+
+.text-line {
+  width: 30%;
+  height: 2px;
+  margin-top: 1%;
+  background: #F4511E;
+;
 }
 
 .features-area {
@@ -111,4 +127,27 @@ body {
 
 .vector img {
   width: 70%;
+}
+
+.properties {
+  padding: 3% 7%;
+}
+
+.properties h2 {
+  width: fit-content;
+}
+
+.prop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prop button {
+  color: white;
+  background: #F4511E;
+  box-shadow: 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+  border-radius: 5px;
+  border: none;
+  padding: 2% 3%;
 }
