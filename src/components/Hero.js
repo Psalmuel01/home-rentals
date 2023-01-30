@@ -25,7 +25,17 @@ function Hero() {
               </a>
             </iframe>
           </div>
-          <div className="map-search"></div>
+          <div className="map-search">
+            <div>
+              <p>Neighbourhood</p>
+            </div>
+            <div>
+              <p>All type</p>
+            </div>
+            <div>
+              <i></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>
