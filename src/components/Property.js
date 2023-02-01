@@ -1,10 +1,12 @@
 import prop1 from "../images/prop1.svg"
 import bed from "../images/bed.svg";
+import shower from "../images/shower.svg";
+import size from "../images/size.svg";
 
-const Property = () => {
+function Property(props) {
     return ( 
         <div className="property">
-            <img src={prop1} alt="" />
+            <img src={props.img} alt="" />
             <div>
                 <h4>2578 Folsom street, San Francisco, CA, 94110</h4>
                 <p>Private Room</p>
@@ -15,10 +17,10 @@ const Property = () => {
                    <img src={bed} alt="" /><h5>4</h5> 
                 </div>
                 <div className="count">
-                   <img src={bed} alt="" /><h5>4</h5> 
+                   <img src={shower} alt="" /><h5>4</h5> 
                 </div>
                 <div className="count">
-                   <img src={bed} alt="" /><h5>4</h5> 
+                   <img src={size} alt="" /><h5>4</h5> 
                 </div>
             </div>
         </div>

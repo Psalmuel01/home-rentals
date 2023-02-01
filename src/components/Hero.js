@@ -33,7 +33,8 @@ function Hero() {
               <p>All type</p>
             </div>
             <div>
-              <i></i>
+              <p>hey</p>
+              {/* <FontAwesomeIcon icon="fa-regular fa-magnifying-glass" /> */}
             </div>
           </div>
         </div>
