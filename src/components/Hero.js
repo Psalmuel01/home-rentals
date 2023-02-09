@@ -1,4 +1,5 @@
 import Header from "./Header";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Hero() {
   return (
@@ -33,8 +34,7 @@ function Hero() {
               <p>All type</p>
             </div>
             <div>
-              <p>hey</p>
-              {/* <FontAwesomeIcon icon="fa-regular fa-magnifying-glass" /> */}
+              <FontAwesomeIcon icon="fa-regular fa-magnifying-glass" />
             </div>
           </div>
         </div>
