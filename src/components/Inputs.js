@@ -1,10 +1,10 @@
 function Inputs(props) {
   return (
     <div className="inputs">
-      <h4>
+      <h5>
         {props.name} <span>*</span>
-      </h4>
-      <input type="text" placeholder={props.placeholder} />
+      </h5>
+      <textarea placeholder={props.placeholder} rows={props.rows}></textarea>
     </div>
   );
 }

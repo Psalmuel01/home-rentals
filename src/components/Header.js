@@ -12,7 +12,7 @@ function Header() {
           <a href=" ">Contact Us</a>
         </div>
       </div>
-      <div className="line"></div>
+      <hr />
     </header>
   );
 }

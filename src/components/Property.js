@@ -6,7 +6,7 @@ function Property(props) {
   return (
     <div className="property">
       <img src={props.img} alt="" />
-      <div>
+      <div className="property-text">
         <h4>2578 Folsom street, San Francisco, CA, 94110</h4>
         <p>Private Room</p>
         <h4 style={{ marginBottom: 0 }}>$1200/Month</h4>

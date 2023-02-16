@@ -1,5 +1,5 @@
 import Header from "./Header";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import SearchIcon from "@mui/icons-material/Search";
 
 function Hero() {
   return (
@@ -8,6 +8,7 @@ function Hero() {
       <div className="hero-area">
         <h1 className="hero-text">
           The Most Affortable Place To Stay In The San Franciso Bay Area
+          <SearchIcon />
         </h1>
         <div className="map">
           <div className="iframe">
@@ -34,7 +35,9 @@ function Hero() {
               <p>All type</p>
             </div>
             <div>
-              <FontAwesomeIcon icon="fa-regular fa-magnifying-glass" />
+              <p>
+                <SearchIcon />
+              </p>
             </div>
           </div>
         </div>

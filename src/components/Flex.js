@@ -26,7 +26,9 @@ function Flex() {
           roommate finder option. We provide you the flexibility that you most
           desire.
         </p>
-        <button>Search Rooms</button>
+        <div>
+          <button>Search Rooms</button>
+        </div>
       </div>
     </div>
   );
