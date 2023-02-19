@@ -8,7 +8,6 @@ function Hero() {
       <div className="hero-area">
         <h1 className="hero-text">
           The Most Affortable Place To Stay In The San Franciso Bay Area
-          <SearchIcon />
         </h1>
         <div className="map">
           <div className="iframe">

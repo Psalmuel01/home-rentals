@@ -14,28 +14,30 @@ function Footer() {
   return (
     <div className="footer">
       <hr color="#f4511e" />
-      <div>
-        <div>
+      <div className="footer-info">
+        <div className="footer-logo">
           <h2>Logo</h2>
         </div>
-        <div className="contact-info">
-          <Location />
-          <p>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
-        </div>
-        <div className="contact-info">
-          <Call /> <p>(123) 456-7890</p>
-          <Print /> <p>(123) 456-7890</p>
-        </div>
-        <div>
-          <p>Social Media</p>
-          <Facebook />
-          <Twitter />
-          <LinkedIn />
-          <YouTube />
-          <Instagram />
-          <Google />
-          <Pinterest />
-          <Wifi />
+        <div className="footer-details">
+          <div className="location-info">
+            <Location />{" "}
+            <p>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
+          </div>
+          <div className="contact-info">
+            <div>
+              <Call /> <p>(123) 456-7890</p>
+            </div>
+            <div>
+              <Print /> <p>(123) 456-7890</p>
+            </div>
+          </div>
+          <div className="socials">
+            <p>Social Media</p>
+            <div>
+              <Facebook /> <Twitter /> <LinkedIn /> <YouTube /> <Instagram />{" "}
+              <Google /> <Pinterest /> <Wifi />
+            </div>
+          </div>
         </div>
       </div>
     </div>

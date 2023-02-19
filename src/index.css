@@ -343,7 +343,7 @@ button {
 }
 
 .testimonial {
-  padding: 3% 7%;
+  padding: 3% 0;
   display: flex;
 }
 
@@ -405,4 +405,43 @@ button {
 
 .footer {
   padding: 3% 7%;
+}
+
+.footer-info {
+  display: flex;
+  margin-top: 3%;
+  padding: 3%;
+}
+
+.footer-logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-details {
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location-info {
+  display: flex;
+}
+
+.contact-info {
+  display: flex;
+  gap: 100px;
+}
+
+.contact-info > div {
+  display: flex;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
 }
